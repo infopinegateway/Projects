@@ -1,0 +1,7 @@
+ioc\dao\motors\CarBeanDAO.class
+ioc\dao\computers\LaptopBean.class
+ioc\dao\computers\DesktopBean.class
+ioc\dao\motors\BikeBeanDAO.class
+ioc\service\MotorServices.class
+ioc\appcontext\AppContextMain.class
+ioc\service\ComputerServices.class

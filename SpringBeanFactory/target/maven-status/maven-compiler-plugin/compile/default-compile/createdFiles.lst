@@ -1,0 +1,5 @@
+com\spring\ioc\main\MainApp.class
+com\spring\ioc\bean\BookwormOracle.class
+com\spring\ioc\bean\CollectionDemo.class
+com\spring\ioc\service\Encyclopedia.class
+com\spring\ioc\service\Oracle.class

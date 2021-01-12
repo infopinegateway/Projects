@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p = "http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	<bean id="empObjXML" class = "com.spring.di.setter.bean.SetterEmpBean">
+		<property name="empName"><value>Alex Maxwell</value></property>
+		<property name="empAge"><value>20</value></property>	
+		<property name="empEmail"><value>alexwell0302@au.co</value></property>
+	</bean>	
+	<bean id="empObj2" class = "com.spring.di.setter.bean.SetterEmpBean" 
+		p:empName="phelexis francis"
+		p:empEmail="phel_fracis@au.co"/>
+		<!-- p:empAge="22" -->		
+</beans>
+    

@@ -1,0 +1,7 @@
+com\spring\di\examp\config\DIComponentConfig.class
+com\spring\di\examp\config\DIComponentTwitConfig.class
+com\spring\di\examp\services\TwitterService.class
+com\spring\di\examp\services\MessageService.class
+com\spring\di\examp\services\EmailService.class
+com\spring\di\examp\annot\ComponentDI.class
+com\spring\di\examp\mainApp\DICompMain.class

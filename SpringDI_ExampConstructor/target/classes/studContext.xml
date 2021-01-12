@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	 <bean id="studConst1" class="com.spring.di.constructor.bean.StudConst">
+	  <constructor-arg index="0"><value>SuryaGanesh Rao</value></constructor-arg>
+	  <constructor-arg index="1"><value>SX00A1001</value></constructor-arg>
+	  <constructor-arg index="2"><value>X-A</value></constructor-arg>
+	</bean> 
+	
+	<bean id="studConst2" class="com.spring.di.constructor.bean.StudConst">
+	  <constructor-arg type="java.lang.String"><value>Jasmine Benneth</value></constructor-arg>
+	  <constructor-arg type="java.lang.String"><value>SX00B1051</value></constructor-arg>
+	  <constructor-arg type="java.lang.String"><value>X-B</value></constructor-arg>
+	</bean>
+</beans>    	

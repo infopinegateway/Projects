@@ -1,0 +1,7 @@
+com\spring\ioc\app\bean\BikeBean.class
+com\spring\ioc\app\service\LaptopInterf.class
+com\spring\ioc\app\bean\LenovoBean.class
+com\spring\ioc\app\main\IOCAppContext.class
+com\spring\ioc\app\service\MotorInterf.class
+com\spring\ioc\app\bean\CarBean.class
+com\spring\ioc\app\bean\AppleBean.class

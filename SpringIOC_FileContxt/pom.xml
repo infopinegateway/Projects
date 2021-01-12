@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ioc.filecontext</groupId>
+  <artifactId>SpringIOC_FileContxt</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
+	<dependencies>
+	<!-- Spring Basic Repository Configuration Start -->  
+	  <dependency>
+	  	<!-- Core Contains: spring-core & spring-jcl -->
+	  	<groupId>org.springframework</groupId>
+	  	<artifactId>spring-core</artifactId>
+	  	<version>5.2.11.RELEASE</version>
+	  </dependency>
+  
+	  <dependency>
+	  	<!-- Sprint Context Contains: spring-context + spring-aop + spring-beans & spring-expression(SpEL) -->
+	  	<groupId>org.springframework</groupId>
+	  	<artifactId>spring-context</artifactId>
+	  	<version>5.2.11.RELEASE</version>
+	  </dependency>
+  
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-beans</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>
+	
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-aop</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>
+	
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-expression</artifactId>
+		    <version>5.1.5.RELEASE</version>
+		    <!-- <version>4.3.2.RELEASE</version> -->
+		</dependency>
+			
+  		<!-- Spring Basic Repository Configuration End -->
+  	</dependencies>
+  	
+	<build>
+		<!--
+			Inform to maven, to consider the jdk path for made build, 
+			If you face below exception please enable it on your local JDK Path  
+			[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+		-->
+	    <plugins>
+	        <plugin>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <version>3.6.0</version>
+	            <configuration>
+	                <fork>true</fork>	                
+	                <executable>C:\Program Files (x86)\Java\jdk1.8.0_271\bin\javac.exe</executable>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
+  
+	<organization>
+		<url>http://www.infopine.com/</url>
+		<name>Infopine Consultancy Services</name>
+	</organization>
+</project>

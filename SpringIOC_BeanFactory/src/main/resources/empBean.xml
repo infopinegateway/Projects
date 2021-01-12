@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    	
+   	<!-- Passing value to argument constructor bean -->
+   	   	
+   	<bean id="empContext" class="com.spring.ioc.bean.EmployeeBean">
+	  <constructor-arg index="0"><value>Emp223</value></constructor-arg>
+	  <constructor-arg index="1"><value>Rosey Fletcher</value></constructor-arg>
+	  <constructor-arg index="2"><value>979000</value></constructor-arg>
+	</bean> 
+	
+	<bean id="empConstArg" class="com.spring.ioc.bean.EmployeeBean">
+	  <constructor-arg type="java.lang.String"><value>Emp221</value></constructor-arg>
+	  <constructor-arg type="java.lang.String"><value>Vinay</value></constructor-arg>
+	  <constructor-arg type="BigDecimal"><value>1380000</value></constructor-arg>
+	</bean>
+	
+	<bean id="empPassByVal" class = "com.spring.ioc.bean.EmployeeBean">	
+      <property name = "empId" value = "Emp222"/>
+      <property name = "empName" value = "Jerrald Linonel"/>
+      <property name = "empSalary" value="1560000"/>
+   	</bean> 
+   	
+</beans>

@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spring.di.setter</groupId>
+  <artifactId>SpringDI_ExampSetter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SpringDI_ExampSetter</name>
+  <description>This program explain about Spring Dependency Injection Setter concept</description>
+  <properties>
+  	<!-- 
+  		To avoid resetting lower version configuration setup while update/clean Maven repository
+     	Using below 2 properties for avoid resetting by Maven
+     
+     	Whenever going to Project Source ->Right Click->Maven->Update Project, (Default J2SE1.5) reloaded [Alt+F5].   
+    	-->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	
+	
+	<dependencies>
+	
+		<!-- Spring Basic Repositories Start -->
+		
+	  	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-core</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-context</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>		
+		
+	  	<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-beans</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-aop</artifactId>
+		    <version>5.2.11.RELEASE</version>
+		</dependency>	
+			
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-expression</artifactId>
+		    <version>5.1.5.RELEASE</version>
+		    <!-- <version>4.3.2.RELEASE</version> -->
+		</dependency>
+		<!-- Spring Basic Repositories End -->
+		
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>3.8.1</version>
+		  <scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+	<organization>
+		<url>http://www.infopine.com/</url>
+		<name>Infopine Consultancy Services</name>
+	</organization>
+	
+	
+</project>

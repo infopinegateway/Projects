@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">	
+	
+	<bean id="xmlSettingsCntxt" class = "com.commonutils.settings.GlobalNames">	
+      <property name = "cmpFooterAddress" value = "#5, 2nd Floor, Pushpa Arcade, Vishwamanava Double Road, opposite Reliance Fresh, Dattagalli, Ramakrishnanagar, Mysuru, Karnataka 570023"/>
+      <property name = "logoPath" value = "/lib/companyBigLogo.jpg"/>
+      <property name = "maxApprovalLimit" value = "12000.99"/>
+      <property name = "minApprovalLimit" value = "1200.01"/>
+   	</bean>      
+   	  
+</beans>
